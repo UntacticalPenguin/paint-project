@@ -1,4 +1,19 @@
-.test1{
-    color: blue;
-    background-color: black;
-}
+.square{
+    background-color: green;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .container{
+    display: grid;
+    max-width: 32px;
+    max-heigth: 32px;
+  }
+  
+  .edited_square{
+    background-color: light-grey;
+  }
+  
+  .edited_square:hover{
+    background-color: green;
+  }
