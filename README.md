@@ -1,1 +1,1 @@
-# paint-project
+This is a simple HTML Paint project Thingy for tOP. 
