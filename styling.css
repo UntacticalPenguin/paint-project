@@ -1,19 +1,60 @@
 .square{
-    background-color: green;
-    height: 20px;
-    width: 20px;
-  }
-  
-  .container{
-    display: grid;
-    max-width: 32px;
-    max-heigth: 32px;
-  }
-  
-  .edited_square{
-    background-color: light-grey;
-  }
-  
-  .edited_square:hover{
-    background-color: green;
-  }
+  background-color: green;
+  height: 20px;
+  width: 20px;
+}
+
+.site{
+  display: flex;
+}
+
+.split1{
+  flex: 50%;
+}
+
+.grid-overall{
+  position: relative;
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(5, 2em);
+  border: 3px solid grey;
+  border-radius: 7px;
+  align-self: centered;
+  width: 10em;
+  left: 29.5em;
+  top: 3em;
+}
+
+p{
+  font-size: 20px;
+  width: 1.6em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+p:hover{
+  background-color: green;
+}
+
+
+h1{
+  position: relative;
+  font-size: 40px;
+  left: 50%;
+  top: 0.5em;
+}
+
+.container{
+  position: relative;
+  display: grid;
+  margin: 50px;
+}
+
+.edited_square{
+  background-color: grey;
+}
+
+.edited_square:hover{
+  background-color: green;
+}
