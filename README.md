@@ -13,3 +13,5 @@ To Do list:
 -add own dropdown color menu plate
 
 -fix zoom-dependent bugs
+
+-fix html display so it fits linux
