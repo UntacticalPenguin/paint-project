@@ -18,6 +18,7 @@ function create_grid(grid_number){
     element.addEventListener("mousedown", event =>{
       element.style.backgroundColor = 'green';
       isdrawing = true;
+      event.preventDefault();
     });
     element.addEventListener("mouseup", event =>{
       isdrawing = false;
@@ -32,6 +33,16 @@ function delete_grid(){
     container.removeChild(container.lastChild);
   }
 }
+
+let clear_button = document.querySelector(".clear-button");
+clear_button.addEventListener("click", event =>{
+  let container = document.querySelector(".container");
+  let div_list = container.children;
+  for (square of Array.from(div_list)){
+    square.style.backgroundColor = "#d3d3d3";
+  }
+})
+
 btn_list = document.querySelectorAll("p");
 
 for (btn of Array.from(btn_list)){
@@ -43,6 +54,7 @@ for (btn of Array.from(btn_list)){
       selector_btn.style.color = "black";
       selector_btn.style.backgroundColor = "white";
     }
+    event.preventDefault
     event.target.style.color = "white";
     event.target.style.backgroundColor = "grey";
   })
