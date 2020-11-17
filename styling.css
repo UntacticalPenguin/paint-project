@@ -25,6 +25,7 @@ p{
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
+  cursor: pointer;
 }
 
 p:hover{
@@ -37,12 +38,14 @@ h1{
   font-size: 40px;
   left: 50%;
   top: 0.5em;
+  width: 45%;  
+  margin: 0;
 }
 
 .container{
   position: relative;
   display: grid;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .edited_square{
@@ -50,5 +53,22 @@ h1{
 }
 
 .edited_square:hover{
-  background-color: green;
+  background-color: gray;
+}
+
+.clear-button{
+  position: relative;
+  left: 49.6%;
+  top: 6em;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 7px;
+  background-color: white;
+  height: 2em;
+  margin: auto;
+  cursor: pointer;
+}
+
+.clear-button:focus{
+  border: 2px solid black;
 }
