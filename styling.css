@@ -54,6 +54,26 @@ h1{
 
 .edited_square:hover{
   background-color: gray;
+<<<<<<< HEAD
+=======
+}
+
+.clear-button{
+  position: relative;
+  left: 49.6%;
+  top: 6em;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 7px;
+  background-color: white;
+  height: 2em;
+  margin: auto;
+  cursor: pointer;
+}
+
+.clear-button:focus{
+  border: 2px solid black;
+>>>>>>> ebd548a06d317e8c03b536ea0c09abe43c4876c7
 }
 
 .clear-button{
